@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PaymentApp.Common\PaymentApp.Common.csproj" />
+    <ProjectReference Include="..\PaymentApp.Entity\PaymentApp.Entity.csproj" />
+    <ProjectReference Include="..\PaymentApp.Repository\PaymentApp.Repository.csproj" />
+    <ProjectReference Include="..\PaymentApp.ViewModel\PaymentApp.ViewModel.csproj" />
+  </ItemGroup>
+
+</Project>

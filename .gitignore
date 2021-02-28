@@ -1,0 +1,19 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/PaymentApp.APIs/bin
+/PaymentApp.APIs/obj
+/PaymentApp.Common/bin
+/PaymentApp.Common/obj
+/PaymentApp.Entity/bin
+/PaymentApp.Entity/obj
+/PaymentApp.Repository/bin
+/PaymentApp.Repository/obj
+/PaymentApp.Service/bin
+/PaymentApp.Service/obj
+/PaymentApp.Test/bin/Debug/netcoreapp3.1
+/PaymentApp.Test/obj
+/PaymentApp.ViewModel/bin
+/PaymentApp.ViewModel/obj
+/PaymentApp/obj
